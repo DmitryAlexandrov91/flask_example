@@ -1,0 +1,18 @@
+{% extends 'base.html' %} 
+{% block title %}Всё шло по плану, но в какой-то момент пошло не по плану.{% endblock %}
+{% block content %}
+<main>
+  <section class="container my-5">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-12 col-md-6 order-md-first mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="{{ url_for('static', filename='img/500.png') }}" alt="Ошибка 500" />
+      </div>
+      <div class="col-12 col-md-6">
+        <h1 class="mb-5">Что-то пошло не так</h1>
+        <p>Попробуйте, пожалуйста, ещё раз, а если ошибка снова повторится, то ещё раз не пробуйте.</p>
+        <p><a href="{{ url_for('index_view') }}">Вернуться на главную</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}
