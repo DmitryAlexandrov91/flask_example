@@ -102,7 +102,7 @@ GET http://127.0.0.1:5000/api/id/asdf
 - https://github.com/DmitryAlexandrov91
 
 <u>Telegram</u>
-- https://t.me/@AlDmAl
+- https://t.me/AlDmAl
 
 <u>Habr Career</u>
 - https://career.habr.com/aldmal
